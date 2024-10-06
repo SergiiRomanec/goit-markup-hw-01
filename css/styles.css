@@ -6,8 +6,10 @@ a {
 }
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-.link-logo1 {
+.link-logo-first {
 font-family: "Raleway" sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -16,7 +18,7 @@ font-family: "Raleway" sans-serif;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.link-logo2 {
+.link-logo-second {
 font-family: "Raleway" sans-serif;
 font-weight: 700;
     font-size: 18px;
