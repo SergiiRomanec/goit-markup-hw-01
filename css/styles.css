@@ -1,20 +1,26 @@
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 address {
     font-style: normal;
 }
+
+
 button {
     font-family: inherit;
 }
+
 .header-logo-first {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -74,25 +80,28 @@ button {
     background-color: #2e2f42;
 }
 
-.solutions-title {
-font-weight: 700;
+.solution-title {
+    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    background: #2e2f42;
 }
 
-.solutions-btn {
+.solution-btn {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;
+    background: #4d5ae5;
+    cursor: pointer
 }
 
-.solutions-btn:hover,
-.solutions-btn:focus {
+.solution-btn:hover,
+.solution-btn:focus {
     background: #404bbf;
 }
 
